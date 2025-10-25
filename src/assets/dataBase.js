@@ -1,8 +1,23 @@
+import cleaning from "/src/assets/images/cleaning.png"
+import GenralCleaning from "/src/assets/images/GenralCleaning.png"
+import WindowCleaning from "/src/assets/images/WindowCleaning.png"
+import extra_services from "/src/assets/images/extra_services.png"
+import extra_services_for_aparent from "/src/assets/images/extra_services_for_aparent.png"
+import water_services from "/src/assets/images/water_services.png"
+import Loading_services from "/src/assets/images/Loading_services.png"
+import restoring_card from "/src/assets/images/restoring_card.png"
+import Water_supply_and_sewerage from "/src/assets/images/Water_supply_and_sewerage.png"
+import heating_services from "/src/assets/images/heating_services.png"
+import electrical_services from "/src/assets/images/electrical_services.png"
+import carpently_services from "/src/assets/images/carpently_services.png"
+import painting_works_wall_services from "/src/assets/images/painting_works_wall_services.png"
+import painting_works_ceilings_services from "/src/assets/images/painting_works_ceilings_services.png"
+import painting_works_floor_services from "/src/assets/images/painting_works_floor_services.png"
 
 export const dataBase = [
     {
         id: 1,
-        img: "../src/assets/images/cleaning.png",
+        img: cleaning,
         title: "Поддерживающая убока",
         info: [
             {
@@ -28,7 +43,7 @@ export const dataBase = [
     },
     {
         id: 2,
-        img: "../src/assets/images/GenralCleaning.png",
+        img: GenralCleaning,
         title: "Генеральная уборка",
         info: [
             {
@@ -54,7 +69,7 @@ export const dataBase = [
     },
     {
         id: 3,
-        img: "../src/assets/images/WindowCleaning.png",
+        img: WindowCleaning,
         title: "Мытьё комнатных окон",
         subTitle: "(с двух сторон)",
         info: [
@@ -81,7 +96,7 @@ export const dataBase = [
     },
     {
         id: 4,
-        img: "../src/assets/images/extra_services.png",
+        img: extra_services,
         title: "Дополнительный услуги",
         info: [
             {
@@ -200,7 +215,7 @@ export const dataBase = [
     },
     {
         id: 5,
-        img: "../src/assets/images/extra_services_for_aparent.png",
+        img: extra_services_for_aparent,
         title: "Другие услуги в квартире",
         info: [
             {
@@ -249,7 +264,7 @@ export const dataBase = [
     },
     {
         id: 6,
-        img: "../src/assets/images/water_services.png",
+        img: water_services,
         title: "Доставка воды",
         info: [
             {
@@ -276,7 +291,7 @@ export const dataBase = [
     },
     {
         id: 7,
-        img: "../src/assets/images/Loading_services.png",
+        img: Loading_services,
         title: "Погрузочно-разгрузочные работы и вынос негабаритного мусора",
         info: [
             {
@@ -313,7 +328,7 @@ export const dataBase = [
     },
     {
         id: 8,
-        img: "../src/assets/images/restoring_card.png",
+        img:restoring_card,
         title: "Прочие услуги",
         info: [
             {
@@ -326,7 +341,7 @@ export const dataBase = [
     },
     {
         id: 9,
-        img: "../src/assets/images/Water_supply_and_sewerage.png",
+        img: Water_supply_and_sewerage,
         title: "Водоснабжение и канализация ",
         info: [
             {
@@ -491,7 +506,7 @@ export const dataBase = [
     },
     {
         id: 10,
-        img:"../src/assets/images/heating_services.png",
+        img:heating_services,
         title:"ОТОПЛЕНИЕ",
         info: [
             {
@@ -517,7 +532,7 @@ export const dataBase = [
     },
     {
         id:11 ,
-        img:"../src/assets/images/electrical_services.png",
+        img:electrical_services,
         title:"ЭЛЕКТРОТЕХНИЧЕСКИЕ РАБОТЫ",
         info: [
             {
@@ -567,7 +582,7 @@ export const dataBase = [
     },
     {
         id: 12,
-        img:"../src/assets/images/carpently_services.png",
+        img:carpently_services,
         title:"ПЛОТНИЦКИЕ РАБОТЫ ",
         info: [
             {
@@ -708,7 +723,7 @@ export const dataBase = [
     },
     {
         id: 13,
-        img:"../src/assets/images/painting_works_wall_services.png",
+        img:painting_works_wall_services,
         title:"МАЛЯРНЫЕ РАБОТЫ: СТЕНЫ",
         info: [
             {
@@ -782,7 +797,7 @@ export const dataBase = [
     },
     {
         id:14 ,
-        img:"../src/assets/images/painting_works_ceilings_services.png",
+        img:painting_works_ceilings_services,
         title:"МАЛЯРНЫЕ РАБОТЫ: ПОТОЛОК",
         info: [
             {
@@ -846,7 +861,7 @@ export const dataBase = [
     },
     {
         id: 15,
-        img:"../src/assets/images/painting_works_floor_services.png",
+        img:painting_works_floor_services,
         title:"МАЛЯРНЫЕ РАБОТЫ: ПОЛ ",
         info: [
             {

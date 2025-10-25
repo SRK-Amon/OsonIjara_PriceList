@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { dataBase } from "./dataBase";
+import { dataBase } from "./assets/dataBase";
 import money from "./assets/images/money.svg";
 const App = () => {
   const [activeId, setActiveId] = useState(null);
