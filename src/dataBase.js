@@ -1,7 +1,8 @@
+
 export const dataBase = [
     {
         id: 1,
-        img: "/src/assets/images/cleaning.png",
+        img: "../src/assets/images/cleaning.png",
         title: "Поддерживающая убока",
         info: [
             {
@@ -27,7 +28,7 @@ export const dataBase = [
     },
     {
         id: 2,
-        img: "/src/assets/images/GenralCleaning.png",
+        img: "../src/assets/images/GenralCleaning.png",
         title: "Генеральная уборка",
         info: [
             {
@@ -53,7 +54,7 @@ export const dataBase = [
     },
     {
         id: 3,
-        img: "/src/assets/images/WindowCleaning.png",
+        img: "../src/assets/images/WindowCleaning.png",
         title: "Мытьё комнатных окон",
         subTitle: "(с двух сторон)",
         info: [
@@ -80,7 +81,7 @@ export const dataBase = [
     },
     {
         id: 4,
-        img: "/src/assets/images/extra_services.png",
+        img: "../src/assets/images/extra_services.png",
         title: "Дополнительный услуги",
         info: [
             {
@@ -199,7 +200,7 @@ export const dataBase = [
     },
     {
         id: 5,
-        img: "/src/assets/images/extra_services_for_aparent.png",
+        img: "../src/assets/images/extra_services_for_aparent.png",
         title: "Другие услуги в квартире",
         info: [
             {
@@ -248,7 +249,7 @@ export const dataBase = [
     },
     {
         id: 6,
-        img: "/src/assets/images/water_services.png",
+        img: "../src/assets/images/water_services.png",
         title: "Доставка воды",
         info: [
             {
@@ -275,7 +276,7 @@ export const dataBase = [
     },
     {
         id: 7,
-        img: "/src/assets/images/Loading_services.png",
+        img: "../src/assets/images/Loading_services.png",
         title: "Погрузочно-разгрузочные работы и вынос негабаритного мусора",
         info: [
             {
@@ -312,7 +313,7 @@ export const dataBase = [
     },
     {
         id: 8,
-        img: "/src/assets/images/restoring_card.png",
+        img: "../src/assets/images/restoring_card.png",
         title: "Прочие услуги",
         info: [
             {
@@ -325,7 +326,7 @@ export const dataBase = [
     },
     {
         id: 9,
-        img: "/src/assets/images/Water_supply_and_sewerage.png",
+        img: "../src/assets/images/Water_supply_and_sewerage.png",
         title: "Водоснабжение и канализация ",
         info: [
             {
@@ -490,7 +491,7 @@ export const dataBase = [
     },
     {
         id: 10,
-        img:"/src/assets/images/heating_services.png",
+        img:"../src/assets/images/heating_services.png",
         title:"ОТОПЛЕНИЕ",
         info: [
             {
@@ -516,7 +517,7 @@ export const dataBase = [
     },
     {
         id:11 ,
-        img:"/src/assets/images/electrical_services.png",
+        img:"../src/assets/images/electrical_services.png",
         title:"ЭЛЕКТРОТЕХНИЧЕСКИЕ РАБОТЫ",
         info: [
             {
@@ -566,7 +567,7 @@ export const dataBase = [
     },
     {
         id: 12,
-        img:"/src/assets/images/carpently_services.png",
+        img:"../src/assets/images/carpently_services.png",
         title:"ПЛОТНИЦКИЕ РАБОТЫ ",
         info: [
             {
@@ -707,7 +708,7 @@ export const dataBase = [
     },
     {
         id: 13,
-        img:"/src/assets/images/painting_works_wall_services.png",
+        img:"../src/assets/images/painting_works_wall_services.png",
         title:"МАЛЯРНЫЕ РАБОТЫ: СТЕНЫ",
         info: [
             {
@@ -781,7 +782,7 @@ export const dataBase = [
     },
     {
         id:14 ,
-        img:"/src/assets/images/painting_works_ceilings_services.png",
+        img:"../src/assets/images/painting_works_ceilings_services.png",
         title:"МАЛЯРНЫЕ РАБОТЫ: ПОТОЛОК",
         info: [
             {
@@ -845,7 +846,7 @@ export const dataBase = [
     },
     {
         id: 15,
-        img:"/src/assets/images/painting_works_floor_services.png",
+        img:"../src/assets/images/painting_works_floor_services.png",
         title:"МАЛЯРНЫЕ РАБОТЫ: ПОЛ ",
         info: [
             {
