@@ -1,0 +1,49 @@
+@media (max-width: 425px) {
+    .intro {
+        &__box {
+            .intro__title {
+                font-size: 35px;
+            }
+            .intro__text {
+                font-size: 16px;
+            }
+        }
+    }
+    .main {
+        &__box {
+            .category__card {
+                .card__btn {
+                    width: 325px;
+                    height: 275px;
+                    .card__imgBox {
+                        padding: 6px;
+                        .card__img {
+                            width: 150px;
+                            height: 150px;
+                        }
+                    }
+                    .category__title {
+                        font-size: 20px;
+                    }
+                }
+                .card__service {
+                    .service__category {
+                        font-size: 23px;
+                    }
+                    .service__box {
+                        .service__item {
+                            .service__title {
+                                font-size: 23px;
+                            }
+                            .service__price,
+                            .service__timeComplete {
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

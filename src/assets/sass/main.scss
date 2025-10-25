@@ -1,0 +1,173 @@
+@use "./common/common.scss";
+
+.intro {
+    &__box {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .intro__title {
+            font-size: 50px;
+            color: #fff;
+        }
+        .intro__text {
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+}
+.main {
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        .category__card {
+            .card__btn {
+                width: 400px;
+                height: 350px;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                border: 3px solid #000;
+                border-radius: 25px;
+                background-color: gold;
+                transition: 0.4s;
+                &:active {
+                    transform: scale(0.9);
+                }
+                .card__imgBox {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    border-radius: 20px;
+                    border-bottom: 3px solid #000;
+                    background-color: #fff;
+                    .card__img {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+                .category__title {
+                    font-size: 30px;
+                    font-weight: 800;
+                    color: #fff;
+                    margin: auto;
+                }
+            }
+
+            .card__service {
+                padding: 15px 10px;
+                background-color: #000000c0;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                overflow-y: scroll;
+                transition: 2s;
+                animation: blur 1.5s;
+                @keyframes blur {
+                    from {
+                        background-color: #00000000;
+                    }
+                    to {
+                        background-color: #000000c0;
+                    }
+                }
+                .service__category {
+                    font-size: 50px;
+                    font-weight: 800;
+                    border: 2px solid #000;
+                    background-color: gold;
+                    color: #fff;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px 20px;
+                    border-radius: 25px;
+                    margin-bottom: 50px;
+                    animation: scaleTitle 0.6s;
+                    @keyframes scaleTitle {
+                        from {
+                            opacity: 0;
+                            transform: translateY(-200px);
+                        }
+                        to {
+                            opacity: 1;
+                            transform: translateY(0);
+                        }
+                    }
+                }
+                .service__box {
+                    display: flex;
+                    justify-content: center;
+                    align-items: start;
+                    flex-wrap: wrap;
+                    gap: 40px;
+                    .service__item {
+                        max-width: max-content;
+                        max-height: max-content;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        padding: 10px;
+                        border-radius: 20px;
+                        background-color: #fff;
+                        gap: 15px;
+                        border: 2px solid #000;
+                        background-color: gold;
+                        color: #fff;
+                        animation: scaleCard 0.6s;
+                        @keyframes scaleCard {
+                            from {
+                                opacity: 0;
+                                transform: scale(0.2);
+                            }
+                            to {
+                                opacity: 1;
+                                transform: scale(1);
+                            }
+                        }
+                        .service__title {
+                            max-width: 500px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            align-self: center;
+                            font-size: 30px;
+                            font-weight: 800;
+                        }
+                        .service__price,
+                        .service__timeComplete {
+                            font-size: 25px;
+                            font-weight: 700;
+                        }
+                        .service__price {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 3px;
+                        }
+                        .service__price--moneyImg {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
