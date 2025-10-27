@@ -18,7 +18,7 @@ export const dataBase = [
     {
         id: 1,
         img: cleaning,
-        title: "Поддерживающая убока",
+        title: "Поддерживающая уборка",
         info: [
             {
                 id: 1,
@@ -97,7 +97,7 @@ export const dataBase = [
     {
         id: 4,
         img: extra_services,
-        title: "Дополнительный услуги",
+        title: "Дополнительные услуги",
         info: [
             {
                 id: 1,
