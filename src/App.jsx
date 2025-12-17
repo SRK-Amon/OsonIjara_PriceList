@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { dataBase } from "./assets/dataBase";
 import money from "./assets/images/money.svg";
+import snow from "./assets/images/card__snow--img.png";
+import SnowEffect from "./SnowEffect";
 const App = () => {
   const [activeId, setActiveId] = useState(null);
 
@@ -34,6 +36,7 @@ const App = () => {
                       alt={data.title}
                       className="card__img"
                     />
+                    <img src={snow} alt="" className="card__img--snow"/>
                   </div>
                   <h2 className="category__title">
                     {data.title}
@@ -81,6 +84,7 @@ const App = () => {
           </div>
         </div>
       </main>
+      <SnowEffect/>
     </>
   );
 };

@@ -8,16 +8,19 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+
         .intro__title {
             font-size: 50px;
             color: #fff;
         }
+
         .intro__text {
             font-size: 20px;
             color: #fff;
         }
     }
 }
+
 .main {
     &__box {
         display: flex;
@@ -25,6 +28,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 30px;
+
         .category__card {
             .card__btn {
                 width: 400px;
@@ -33,27 +37,40 @@
                 flex-direction: column;
                 justify-content: start;
                 align-items: center;
-                border: 3px solid #000;
+                border: 3px solid #ffd966;
                 border-radius: 25px;
-                background-color: gold;
+                background-color: #d32f2f;
                 transition: 0.4s;
+
                 &:active {
                     transform: scale(0.9);
                 }
+
                 .card__imgBox {
+                    position: relative;
+                    overflow: hidden;
                     width: 100%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     padding: 10px;
                     border-radius: 20px;
-                    border-bottom: 3px solid #000;
-                    background-color: #fff;
+                    border-bottom: 3px solid #b71c1c;
+                    background-color: #cce6ff;
+
                     .card__img {
                         width: 200px;
                         height: 200px;
+                        z-index: 2;
+                    }
+
+                    .card__img--snow {
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
                     }
                 }
+
                 .category__title {
                     font-size: 30px;
                     font-weight: 800;
@@ -77,19 +94,22 @@
                 overflow-y: scroll;
                 transition: 2s;
                 animation: blur 1.5s;
+                z-index: 99;
                 @keyframes blur {
                     from {
                         background-color: #00000000;
                     }
+
                     to {
                         background-color: #000000c0;
                     }
                 }
+
                 .service__category {
                     font-size: 50px;
                     font-weight: 800;
-                    border: 2px solid #000;
-                    background-color: gold;
+                    border: 2px solid #ffd966;
+                    background-color: #b71c1c;
                     color: #fff;
                     display: flex;
                     flex-direction: column;
@@ -99,17 +119,20 @@
                     border-radius: 25px;
                     margin-bottom: 50px;
                     animation: scaleTitle 0.6s;
+                    z-index: 99;
                     @keyframes scaleTitle {
                         from {
                             opacity: 0;
                             transform: translateY(-200px);
                         }
+
                         to {
                             opacity: 1;
                             transform: translateY(0);
                         }
                     }
                 }
+
                 .service__box {
                     display: flex;
                     justify-content: center;
@@ -127,20 +150,23 @@
                         border-radius: 20px;
                         background-color: #fff;
                         gap: 15px;
-                        border: 2px solid #000;
-                        background-color: gold;
+                        border: 2px solid #ffd966;
+                        background-color: #b71c1c;
                         color: #fff;
                         animation: scaleCard 0.6s;
+
                         @keyframes scaleCard {
                             from {
                                 opacity: 0;
                                 transform: scale(0.2);
                             }
+
                             to {
                                 opacity: 1;
                                 transform: scale(1);
                             }
                         }
+
                         .service__title {
                             max-width: 500px;
                             display: flex;
@@ -150,17 +176,20 @@
                             font-size: 30px;
                             font-weight: 800;
                         }
+
                         .service__price,
                         .service__timeComplete {
                             font-size: 25px;
                             font-weight: 700;
                         }
+
                         .service__price {
                             display: flex;
                             justify-content: center;
                             align-items: center;
                             gap: 3px;
                         }
+
                         .service__price--moneyImg {
                             width: 30px;
                             height: 30px;
